@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2CF2A9254EB3B6007E4F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CF2A8254EB3B6007E4F9C /* AppDelegate.swift */; };
+		DE2CF2AB254EB3B6007E4F9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CF2AA254EB3B6007E4F9C /* SceneDelegate.swift */; };
+		DE2CF2B0254EB3B6007E4F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2CF2AE254EB3B6007E4F9C /* Main.storyboard */; };
+		DE2CF2B2254EB3B7007E4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2CF2B1254EB3B7007E4F9C /* Assets.xcassets */; };
+		DE2CF2B5254EB3B7007E4F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2CF2B3254EB3B7007E4F9C /* LaunchScreen.storyboard */; };
+		DE2CF2C4254EC31C007E4F9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2CF2C3254EC31C007E4F9C /* AVFoundation.framework */; };
+		DEA4DBBA26949CBB0049AFA3 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4DBB926949CBB0049AFA3 /* MyMusicViewController.swift */; };
+		DEA4DBC12694AA3F0049AFA3 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4DBC02694AA3F0049AFA3 /* Music.swift */; };
+		DEA4DBC62694B3C90049AFA3 /* MyMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4DBC42694B3C90049AFA3 /* MyMusicTableViewCell.swift */; };
+		DEA4DBC72694B3C90049AFA3 /* MyMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBC52694B3C90049AFA3 /* MyMusicTableViewCell.xib */; };
+		DEA4DBD82695AB280049AFA3 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4DBD72695AB280049AFA3 /* PlayViewController.swift */; };
+		DEA4DBF42696A65B0049AFA3 /* NangTho-HoangDung-6413381.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE22696A63A0049AFA3 /* NangTho-HoangDung-6413381.mp3 */; };
+		DEA4DBF52696A65B0049AFA3 /* BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE32696A63C0049AFA3 /* BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3 */; };
+		DEA4DBF62696A65B0049AFA3 /* ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE42696A63E0049AFA3 /* ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3 */; };
+		DEA4DBF72696A65B0049AFA3 /* ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE52696A6400049AFA3 /* ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3 */; };
+		DEA4DBF82696A65B0049AFA3 /* TinhYeuNguQuen-HoangTonLyhan-7030537.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE62696A6410049AFA3 /* TinhYeuNguQuen-HoangTonLyhan-7030537.mp3 */; };
+		DEA4DBF92696A65B0049AFA3 /* HongTranVuongSauCay-HuyVac-7036434.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE72696A6440049AFA3 /* HongTranVuongSauCay-HuyVac-7036434.mp3 */; };
+		DEA4DBFA2696A65B0049AFA3 /* CoGiangTinhDinhlongRemix-X2X-6246845.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE82696A6460049AFA3 /* CoGiangTinhDinhlongRemix-X2X-6246845.mp3 */; };
+		DEA4DBFB2696A65B0049AFA3 /* NuocMatDongBang-HoQuangHieu-7029473.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBE92696A6470049AFA3 /* NuocMatDongBang-HoQuangHieu-7029473.mp3 */; };
+		DEA4DBFC2696A65B0049AFA3 /* HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBEA2696A6490049AFA3 /* HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3 */; };
+		DEA4DBFD2696A65B0049AFA3 /* HienDai-KhacViet-7022864.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBEB2696A64B0049AFA3 /* HienDai-KhacViet-7022864.mp3 */; };
+		DEA4DBFE2696A65B0049AFA3 /* HongNhanTruogXuRemix-JackG5R-5950370.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBEC2696A64D0049AFA3 /* HongNhanTruogXuRemix-JackG5R-5950370.mp3 */; };
+		DEA4DBFF2696A65B0049AFA3 /* TanRemix-TuanHung-4602901.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBED2696A64F0049AFA3 /* TanRemix-TuanHung-4602901.mp3 */; };
+		DEA4DC002696A65B0049AFA3 /* HonCaYeuEntidiRemix-DucPhuc-6229851.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBEE2696A6510049AFA3 /* HonCaYeuEntidiRemix-DucPhuc-6229851.mp3 */; };
+		DEA4DC012696A65B0049AFA3 /* ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBEF2696A6530049AFA3 /* ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3 */; };
+		DEA4DC022696A65B0049AFA3 /* NguoiThuongThuongNguoi-TuanHii-7031654.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBF02696A6550049AFA3 /* NguoiThuongThuongNguoi-TuanHii-7031654.mp3 */; };
+		DEA4DC032696A65B0049AFA3 /* ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBF12696A6570049AFA3 /* ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3 */; };
+		DEA4DC042696A65B0049AFA3 /* EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBF22696A6590049AFA3 /* EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3 */; };
+		DEA4DC052696A65B0049AFA3 /* ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEA4DBF32696A65B0049AFA3 /* ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3 */; };
+		DEA4DC082696A6AE0049AFA3 /* MyMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4DC072696A6AE0049AFA3 /* MyMusic.swift */; };
+		DEC4E9FD25714AEE00B61F4F /* OnlineMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4E9FC25714AEE00B61F4F /* OnlineMusicViewController.swift */; };
+		DEC4E9FF257151BF00B61F4F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC4E9FE257151BF00B61F4F /* WebKit.framework */; };
+		DEF077EF2693F86100764EF4 /* DanhMatEm-QuangDangTran-6677870.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077E22693F85D00764EF4 /* DanhMatEm-QuangDangTran-6677870.mp3 */; };
+		DEF077F62693F86100764EF4 /* DungCungThanhSaiCover-BenSino-6714432.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077E92693F85F00764EF4 /* DungCungThanhSaiCover-BenSino-6714432.mp3 */; };
+		DEF077F72693F86100764EF4 /* TuTai-PhanNgocLuan-6655960.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077EA2693F86000764EF4 /* TuTai-PhanNgocLuan-6655960.mp3 */; };
+		DEF077FA2693F86100764EF4 /* RuouTinh-NamDuc-6207636_hq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077ED2693F86100764EF4 /* RuouTinh-NamDuc-6207636_hq.mp3 */; };
+		DEF078112693FDFC00764EF4 /* XinLoiViDaYeuNhau-HoaiLam-5524738.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF078042693F88200764EF4 /* XinLoiViDaYeuNhau-HoaiLam-5524738.mp3 */; };
+		DEF078132693FE0200764EF4 /* RuouNgonCungKhongBang-GeminiBand-6773686.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077FC2693F87800764EF4 /* RuouNgonCungKhongBang-GeminiBand-6773686.mp3 */; };
+		DEF078152693FE0700764EF4 /* NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077FF2693F87C00764EF4 /* NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3 */; };
+		DEF078172693FE0B00764EF4 /* MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077FE2693F87B00764EF4 /* MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3 */; };
+		DEF078192693FE0E00764EF4 /* HoaNoKhongMau1-HoaiLam-6281704.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF077FD2693F87A00764EF4 /* HoaNoKhongMau1-HoaiLam-6281704.mp3 */; };
+		DEF0781B2693FE1200764EF4 /* HoaHaiDuong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF078032693F88100764EF4 /* HoaHaiDuong.mp3 */; };
+		DEF0781D2693FE1700764EF4 /* DoiLong-TuanHung-5385147.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF078002693F87E00764EF4 /* DoiLong-TuanHung-5385147.mp3 */; };
+		DEF0781F2693FE1E00764EF4 /* BongHoaDepNhat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF078022693F88000764EF4 /* BongHoaDepNhat.mp3 */; };
+		DEF078212693FE2900764EF4 /* AiMangEmDi-KICMAPJ-6714486.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEF078012693F87F00764EF4 /* AiMangEmDi-KICMAPJ-6714486.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE2CF2A5254EB3B6007E4F9C /* PlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2CF2A8254EB3B6007E4F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE2CF2AA254EB3B6007E4F9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE2CF2AF254EB3B6007E4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE2CF2B1254EB3B7007E4F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2CF2B4254EB3B7007E4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE2CF2B6254EB3B7007E4F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2CF2C3254EC31C007E4F9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DEA4DBB926949CBB0049AFA3 /* MyMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicViewController.swift; sourceTree = "<group>"; };
+		DEA4DBC02694AA3F0049AFA3 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		DEA4DBC42694B3C90049AFA3 /* MyMusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicTableViewCell.swift; sourceTree = "<group>"; };
+		DEA4DBC52694B3C90049AFA3 /* MyMusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyMusicTableViewCell.xib; sourceTree = "<group>"; };
+		DEA4DBD72695AB280049AFA3 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		DEA4DBE22696A63A0049AFA3 /* NangTho-HoangDung-6413381.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NangTho-HoangDung-6413381.mp3"; sourceTree = "<group>"; };
+		DEA4DBE32696A63C0049AFA3 /* BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3"; sourceTree = "<group>"; };
+		DEA4DBE42696A63E0049AFA3 /* ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3"; sourceTree = "<group>"; };
+		DEA4DBE52696A6400049AFA3 /* ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3"; sourceTree = "<group>"; };
+		DEA4DBE62696A6410049AFA3 /* TinhYeuNguQuen-HoangTonLyhan-7030537.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TinhYeuNguQuen-HoangTonLyhan-7030537.mp3"; sourceTree = "<group>"; };
+		DEA4DBE72696A6440049AFA3 /* HongTranVuongSauCay-HuyVac-7036434.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HongTranVuongSauCay-HuyVac-7036434.mp3"; sourceTree = "<group>"; };
+		DEA4DBE82696A6460049AFA3 /* CoGiangTinhDinhlongRemix-X2X-6246845.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CoGiangTinhDinhlongRemix-X2X-6246845.mp3"; sourceTree = "<group>"; };
+		DEA4DBE92696A6470049AFA3 /* NuocMatDongBang-HoQuangHieu-7029473.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NuocMatDongBang-HoQuangHieu-7029473.mp3"; sourceTree = "<group>"; };
+		DEA4DBEA2696A6490049AFA3 /* HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3"; sourceTree = "<group>"; };
+		DEA4DBEB2696A64B0049AFA3 /* HienDai-KhacViet-7022864.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HienDai-KhacViet-7022864.mp3"; sourceTree = "<group>"; };
+		DEA4DBEC2696A64D0049AFA3 /* HongNhanTruogXuRemix-JackG5R-5950370.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HongNhanTruogXuRemix-JackG5R-5950370.mp3"; sourceTree = "<group>"; };
+		DEA4DBED2696A64F0049AFA3 /* TanRemix-TuanHung-4602901.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TanRemix-TuanHung-4602901.mp3"; sourceTree = "<group>"; };
+		DEA4DBEE2696A6510049AFA3 /* HonCaYeuEntidiRemix-DucPhuc-6229851.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HonCaYeuEntidiRemix-DucPhuc-6229851.mp3"; sourceTree = "<group>"; };
+		DEA4DBEF2696A6530049AFA3 /* ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3"; sourceTree = "<group>"; };
+		DEA4DBF02696A6550049AFA3 /* NguoiThuongThuongNguoi-TuanHii-7031654.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NguoiThuongThuongNguoi-TuanHii-7031654.mp3"; sourceTree = "<group>"; };
+		DEA4DBF12696A6570049AFA3 /* ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3"; sourceTree = "<group>"; };
+		DEA4DBF22696A6590049AFA3 /* EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3"; sourceTree = "<group>"; };
+		DEA4DBF32696A65B0049AFA3 /* ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3"; sourceTree = "<group>"; };
+		DEA4DC072696A6AE0049AFA3 /* MyMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusic.swift; sourceTree = "<group>"; };
+		DEC4E9FC25714AEE00B61F4F /* OnlineMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineMusicViewController.swift; sourceTree = "<group>"; };
+		DEC4E9FE257151BF00B61F4F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		DEF077E22693F85D00764EF4 /* DanhMatEm-QuangDangTran-6677870.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DanhMatEm-QuangDangTran-6677870.mp3"; sourceTree = "<group>"; };
+		DEF077E92693F85F00764EF4 /* DungCungThanhSaiCover-BenSino-6714432.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DungCungThanhSaiCover-BenSino-6714432.mp3"; sourceTree = "<group>"; };
+		DEF077EA2693F86000764EF4 /* TuTai-PhanNgocLuan-6655960.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TuTai-PhanNgocLuan-6655960.mp3"; sourceTree = "<group>"; };
+		DEF077ED2693F86100764EF4 /* RuouTinh-NamDuc-6207636_hq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "RuouTinh-NamDuc-6207636_hq.mp3"; sourceTree = "<group>"; };
+		DEF077FC2693F87800764EF4 /* RuouNgonCungKhongBang-GeminiBand-6773686.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "RuouNgonCungKhongBang-GeminiBand-6773686.mp3"; sourceTree = "<group>"; };
+		DEF077FD2693F87A00764EF4 /* HoaNoKhongMau1-HoaiLam-6281704.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "HoaNoKhongMau1-HoaiLam-6281704.mp3"; sourceTree = "<group>"; };
+		DEF077FE2693F87B00764EF4 /* MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3"; sourceTree = "<group>"; };
+		DEF077FF2693F87C00764EF4 /* NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3"; sourceTree = "<group>"; };
+		DEF078002693F87E00764EF4 /* DoiLong-TuanHung-5385147.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DoiLong-TuanHung-5385147.mp3"; sourceTree = "<group>"; };
+		DEF078012693F87F00764EF4 /* AiMangEmDi-KICMAPJ-6714486.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AiMangEmDi-KICMAPJ-6714486.mp3"; sourceTree = "<group>"; };
+		DEF078022693F88000764EF4 /* BongHoaDepNhat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BongHoaDepNhat.mp3; sourceTree = "<group>"; };
+		DEF078032693F88100764EF4 /* HoaHaiDuong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HoaHaiDuong.mp3; sourceTree = "<group>"; };
+		DEF078042693F88200764EF4 /* XinLoiViDaYeuNhau-HoaiLam-5524738.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "XinLoiViDaYeuNhau-HoaiLam-5524738.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2CF2A2254EB3B6007E4F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2CF2C4254EC31C007E4F9C /* AVFoundation.framework in Frameworks */,
+				DEC4E9FF257151BF00B61F4F /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2CF29C254EB3B6007E4F9C = {
+			isa = PBXGroup;
+			children = (
+				DE2CF2A7254EB3B6007E4F9C /* PlayMusic */,
+				DE2CF2A6254EB3B6007E4F9C /* Products */,
+				DE2CF2C2254EC31C007E4F9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2CF2A6254EB3B6007E4F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CF2A5254EB3B6007E4F9C /* PlayMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2CF2A7254EB3B6007E4F9C /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4DBC32694B38C0049AFA3 /* Views */,
+				DEA4DBB726949BC20049AFA3 /* Controllers */,
+				DEA4DBBF2694A9FB0049AFA3 /* Models */,
+				DEF077DF2693F76900764EF4 /* My song */,
+				DEA4DBE026960E340049AFA3 /* Supports */,
+				DE2CF2B6254EB3B7007E4F9C /* Info.plist */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		DE2CF2C2254EC31C007E4F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4E9FE257151BF00B61F4F /* WebKit.framework */,
+				DE2CF2C3254EC31C007E4F9C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA4DBB726949BC20049AFA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEC4E9FC25714AEE00B61F4F /* OnlineMusicViewController.swift */,
+				DEA4DBB926949CBB0049AFA3 /* MyMusicViewController.swift */,
+				DEA4DBD72695AB280049AFA3 /* PlayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DEA4DBBF2694A9FB0049AFA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4DBC02694AA3F0049AFA3 /* Music.swift */,
+				DEA4DC072696A6AE0049AFA3 /* MyMusic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEA4DBC32694B38C0049AFA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CF2AE254EB3B6007E4F9C /* Main.storyboard */,
+				DEA4DBDD26960C740049AFA3 /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEA4DBDD26960C740049AFA3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4DBC42694B3C90049AFA3 /* MyMusicTableViewCell.swift */,
+				DEA4DBC52694B3C90049AFA3 /* MyMusicTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DEA4DBE026960E340049AFA3 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CF2A8254EB3B6007E4F9C /* AppDelegate.swift */,
+				DE2CF2AA254EB3B6007E4F9C /* SceneDelegate.swift */,
+				DE2CF2B1254EB3B7007E4F9C /* Assets.xcassets */,
+				DE2CF2B3254EB3B7007E4F9C /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		DEF077DF2693F76900764EF4 /* My song */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4DBE32696A63C0049AFA3 /* BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3 */,
+				DEA4DBEF2696A6530049AFA3 /* ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3 */,
+				DEA4DBF32696A65B0049AFA3 /* ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3 */,
+				DEA4DBE82696A6460049AFA3 /* CoGiangTinhDinhlongRemix-X2X-6246845.mp3 */,
+				DEA4DBF22696A6590049AFA3 /* EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3 */,
+				DEA4DBEA2696A6490049AFA3 /* HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3 */,
+				DEA4DBEB2696A64B0049AFA3 /* HienDai-KhacViet-7022864.mp3 */,
+				DEA4DBEE2696A6510049AFA3 /* HonCaYeuEntidiRemix-DucPhuc-6229851.mp3 */,
+				DEA4DBEC2696A64D0049AFA3 /* HongNhanTruogXuRemix-JackG5R-5950370.mp3 */,
+				DEA4DBE72696A6440049AFA3 /* HongTranVuongSauCay-HuyVac-7036434.mp3 */,
+				DEA4DBE22696A63A0049AFA3 /* NangTho-HoangDung-6413381.mp3 */,
+				DEA4DBF02696A6550049AFA3 /* NguoiThuongThuongNguoi-TuanHii-7031654.mp3 */,
+				DEA4DBE92696A6470049AFA3 /* NuocMatDongBang-HoQuangHieu-7029473.mp3 */,
+				DEA4DBED2696A64F0049AFA3 /* TanRemix-TuanHung-4602901.mp3 */,
+				DEA4DBF12696A6570049AFA3 /* ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3 */,
+				DEA4DBE42696A63E0049AFA3 /* ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3 */,
+				DEA4DBE52696A6400049AFA3 /* ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3 */,
+				DEA4DBE62696A6410049AFA3 /* TinhYeuNguQuen-HoangTonLyhan-7030537.mp3 */,
+				DEF078012693F87F00764EF4 /* AiMangEmDi-KICMAPJ-6714486.mp3 */,
+				DEF078022693F88000764EF4 /* BongHoaDepNhat.mp3 */,
+				DEF077E22693F85D00764EF4 /* DanhMatEm-QuangDangTran-6677870.mp3 */,
+				DEF078002693F87E00764EF4 /* DoiLong-TuanHung-5385147.mp3 */,
+				DEF077E92693F85F00764EF4 /* DungCungThanhSaiCover-BenSino-6714432.mp3 */,
+				DEF078032693F88100764EF4 /* HoaHaiDuong.mp3 */,
+				DEF077FD2693F87A00764EF4 /* HoaNoKhongMau1-HoaiLam-6281704.mp3 */,
+				DEF077FE2693F87B00764EF4 /* MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3 */,
+				DEF077FF2693F87C00764EF4 /* NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3 */,
+				DEF077FC2693F87800764EF4 /* RuouNgonCungKhongBang-GeminiBand-6773686.mp3 */,
+				DEF077ED2693F86100764EF4 /* RuouTinh-NamDuc-6207636_hq.mp3 */,
+				DEF077EA2693F86000764EF4 /* TuTai-PhanNgocLuan-6655960.mp3 */,
+				DEF078042693F88200764EF4 /* XinLoiViDaYeuNhau-HoaiLam-5524738.mp3 */,
+			);
+			path = "My song";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2CF2A4254EB3B6007E4F9C /* PlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2CF2B9254EB3B7007E4F9C /* Build configuration list for PBXNativeTarget "PlayMusic" */;
+			buildPhases = (
+				DE2CF2A1254EB3B6007E4F9C /* Sources */,
+				DE2CF2A2254EB3B6007E4F9C /* Frameworks */,
+				DE2CF2A3254EB3B6007E4F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMusic;
+			productName = PlayMusic;
+			productReference = DE2CF2A5254EB3B6007E4F9C /* PlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2CF29D254EB3B6007E4F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Lâm Nguyễn";
+				TargetAttributes = {
+					DE2CF2A4254EB3B6007E4F9C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DE2CF2A0254EB3B6007E4F9C /* Build configuration list for PBXProject "PlayMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2CF29C254EB3B6007E4F9C;
+			productRefGroup = DE2CF2A6254EB3B6007E4F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2CF2A4254EB3B6007E4F9C /* PlayMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2CF2A3254EB3B6007E4F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4DBFC2696A65B0049AFA3 /* HayTraoChoAnhHtrolRemix-SonTungMTPSnoopDogg-6023798.mp3 in Resources */,
+				DEA4DBFF2696A65B0049AFA3 /* TanRemix-TuanHung-4602901.mp3 in Resources */,
+				DEA4DBC72694B3C90049AFA3 /* MyMusicTableViewCell.xib in Resources */,
+				DEF078112693FDFC00764EF4 /* XinLoiViDaYeuNhau-HoaiLam-5524738.mp3 in Resources */,
+				DEA4DC012696A65B0049AFA3 /* ChacHoCoThuongEm-KiunGiaTuan-7038201.mp3 in Resources */,
+				DE2CF2B5254EB3B7007E4F9C /* LaunchScreen.storyboard in Resources */,
+				DEF077FA2693F86100764EF4 /* RuouTinh-NamDuc-6207636_hq.mp3 in Resources */,
+				DEF0781D2693FE1700764EF4 /* DoiLong-TuanHung-5385147.mp3 in Resources */,
+				DEF077F62693F86100764EF4 /* DungCungThanhSaiCover-BenSino-6714432.mp3 in Resources */,
+				DEA4DBFE2696A65B0049AFA3 /* HongNhanTruogXuRemix-JackG5R-5950370.mp3 in Resources */,
+				DEA4DBF92696A65B0049AFA3 /* HongTranVuongSauCay-HuyVac-7036434.mp3 in Resources */,
+				DEA4DC002696A65B0049AFA3 /* HonCaYeuEntidiRemix-DucPhuc-6229851.mp3 in Resources */,
+				DEF078212693FE2900764EF4 /* AiMangEmDi-KICMAPJ-6714486.mp3 in Resources */,
+				DEA4DBFA2696A65B0049AFA3 /* CoGiangTinhDinhlongRemix-X2X-6246845.mp3 in Resources */,
+				DEF0781F2693FE1E00764EF4 /* BongHoaDepNhat.mp3 in Resources */,
+				DE2CF2B2254EB3B7007E4F9C /* Assets.xcassets in Resources */,
+				DEA4DC052696A65B0049AFA3 /* ChanAiOrinnRemix-OrangeKhoiChauDangKhoa-6228503.mp3 in Resources */,
+				DEA4DBF62696A65B0049AFA3 /* ThichThiDenAndyRemix-LeBaoBinh-6261109.mp3 in Resources */,
+				DEF078192693FE0E00764EF4 /* HoaNoKhongMau1-HoaiLam-6281704.mp3 in Resources */,
+				DEA4DC022696A65B0049AFA3 /* NguoiThuongThuongNguoi-TuanHii-7031654.mp3 in Resources */,
+				DEA4DC032696A65B0049AFA3 /* ThangNamSpecialPerformance-SoobinHoangSonSlimV-7020121.mp3 in Resources */,
+				DEA4DBFB2696A65B0049AFA3 /* NuocMatDongBang-HoQuangHieu-7029473.mp3 in Resources */,
+				DEA4DC042696A65B0049AFA3 /* EmKhongSaiChungTaSaiQuynhIDRemix-ERIK-6282373.mp3 in Resources */,
+				DE2CF2B0254EB3B6007E4F9C /* Main.storyboard in Resources */,
+				DEA4DBF42696A65B0049AFA3 /* NangTho-HoangDung-6413381.mp3 in Resources */,
+				DEA4DBF72696A65B0049AFA3 /* ThiepHongNguoiDungOrinnRemix-X2X-6203675.mp3 in Resources */,
+				DEF077F72693F86100764EF4 /* TuTai-PhanNgocLuan-6655960.mp3 in Resources */,
+				DEF0781B2693FE1200764EF4 /* HoaHaiDuong.mp3 in Resources */,
+				DEF078152693FE0700764EF4 /* NoiChiaTayThatKho-TranThanhThuyChi-6738009.mp3 in Resources */,
+				DEA4DBFD2696A65B0049AFA3 /* HienDai-KhacViet-7022864.mp3 in Resources */,
+				DEF078132693FE0200764EF4 /* RuouNgonCungKhongBang-GeminiBand-6773686.mp3 in Resources */,
+				DEA4DBF82696A65B0049AFA3 /* TinhYeuNguQuen-HoangTonLyhan-7030537.mp3 in Resources */,
+				DEA4DBF52696A65B0049AFA3 /* BuonCuaAnhRemix-KICMDatGMasew-5327036.mp3 in Resources */,
+				DEF077EF2693F86100764EF4 /* DanhMatEm-QuangDangTran-6677870.mp3 in Resources */,
+				DEF078172693FE0B00764EF4 /* MotLaCuoiHaiLaChiaTay-DuongEdward-6791301.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2CF2A1254EB3B6007E4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4DBD82695AB280049AFA3 /* PlayViewController.swift in Sources */,
+				DEA4DC082696A6AE0049AFA3 /* MyMusic.swift in Sources */,
+				DEC4E9FD25714AEE00B61F4F /* OnlineMusicViewController.swift in Sources */,
+				DEA4DBBA26949CBB0049AFA3 /* MyMusicViewController.swift in Sources */,
+				DEA4DBC62694B3C90049AFA3 /* MyMusicTableViewCell.swift in Sources */,
+				DE2CF2A9254EB3B6007E4F9C /* AppDelegate.swift in Sources */,
+				DE2CF2AB254EB3B6007E4F9C /* SceneDelegate.swift in Sources */,
+				DEA4DBC12694AA3F0049AFA3 /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE2CF2AE254EB3B6007E4F9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2CF2AF254EB3B6007E4F9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2CF2B3254EB3B7007E4F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2CF2B4254EB3B7007E4F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2CF2B7254EB3B7007E4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE2CF2B8254EB3B7007E4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2CF2BA254EB3B7007E4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3848KCMV9B;
+				INFOPLIST_FILE = PlayMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE2CF2BB254EB3B7007E4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3848KCMV9B;
+				INFOPLIST_FILE = PlayMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2CF2A0254EB3B6007E4F9C /* Build configuration list for PBXProject "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2CF2B7254EB3B7007E4F9C /* Debug */,
+				DE2CF2B8254EB3B7007E4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2CF2B9254EB3B7007E4F9C /* Build configuration list for PBXNativeTarget "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2CF2BA254EB3B7007E4F9C /* Debug */,
+				DE2CF2BB254EB3B7007E4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2CF29D254EB3B6007E4F9C /* Project object */;
+}
